@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
   <div>
     {films.map((film, index) => (
       <div key={index}>
-       <Link to={`/films/${film.name}`}>{film.name}</Link>
+       <Link to={`/films/${film.title}`}>{film.title}</Link>
       </div>
     ))}
   </div>
